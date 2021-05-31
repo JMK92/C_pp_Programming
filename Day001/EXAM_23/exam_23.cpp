@@ -45,7 +45,7 @@ int main() {
 	else if (mean >= 60)
 		grade = "D학점 입니다";
 	else
-		grade = "F학점 입니다";
+		grade = "F학점 ";
 
 	cout << "총점 : " << total << ", 평균 : " << mean << ", 학점은 : " << grade << endl;
 
