@@ -1,0 +1,6 @@
+﻿  score_5.cpp
+D:\C++_programming\source\Score_Project\Step_5\score_5.cpp(10,22): warning C4101: 'tot' :참조되지 않은 지역 변수입니다.
+D:\C++_programming\source\Score_Project\Step_5\score_5.cpp(10,11): warning C4101: 'eng' :참조되지 않은 지역 변수입니다.
+D:\C++_programming\source\Score_Project\Step_5\score_5.cpp(10,6): warning C4101: 'kor' :참조되지 않은 지역 변수입니다.
+D:\C++_programming\source\Score_Project\Step_5\score_5.cpp(10,16): warning C4101: 'math' :참조되지 않은 지역 변수입니다.
+  Step_5.vcxproj -> D:\C++_programming\source\Score_Project\Debug\Step_5.exe
