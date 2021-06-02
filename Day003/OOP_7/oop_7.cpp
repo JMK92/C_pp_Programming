@@ -46,25 +46,3 @@ int main() {
 
 	return 0;
 }
-
-//int main() {
-//	int r;
-//	cout << "배열의 크기 = ";
-//	int count;
-//	cin >> count;
-//	if (count == 0) return 0;
-//
-//	while (count != 0) {
-//		cout << "반지름 = ";
-//		cin >> r;
-//		if (r < 0) break;
-//		Circle* p = new Circle(r);
-//
-//		int ct = 0;
-//		if (p->getArea() >= 100 && p->getArea() <= 200) {
-//			cout << "원의 개수 = " << ct << endl;
-//		}
-//		delete p;		
-//	}
-//	return 0;
-//}

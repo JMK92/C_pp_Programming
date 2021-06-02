@@ -36,7 +36,7 @@ int main() {
 	p = cArray; // 배열명은 배열의 시작주소와 같다 .(cArray[0]과 동일)
 
 	for (int i = 0; i < 3; i++) {
-		cout << "Circle " << i << "의 면적 = " << cArray[i].getArea() << endl;
+		cout << "Circle " << i << "의 면적 = " << p->getArea() << endl;
 		p++; // 포인터 위치가 바뀐다.
 	}
 

@@ -21,13 +21,15 @@ public:
 	int getRadius() { return radius; }
 };
 
-Circle::Circle(Circle& c){ // & X -> 얕은복사, & O -> 깊은복사
+Circle::Circle(Circle& c){  // 깊은복사
 	this->radius = c.radius;
 }
 
 int main() {
 	Circle src(30); // Circle(int radius) 호출
 	Circle dest(src); // Circle(Circle& c) 호출 - 복사생성자 호출
+	/*Circle& dest = src; // 얕은복사
+	dest.setRadius(20);*/
 
 	cout << "원본의 면적 = " << src.getArea() << endl;
 	cout << "사본의 면적 = " << dest.getArea() << endl; // 똑같은 결과
