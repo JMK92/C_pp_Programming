@@ -1,0 +1,30 @@
+﻿  studentManger.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5301,1): error C2679: 이항 '==': 오른쪽 피연산자로 'const _Ty' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\C++_programming\source\Dat010\ScoreManager\studentManger.cpp(75,15): message : 'bool Student::operator ==(const char *) const'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5301,1): message : 인수 목록 '(Student, const _Ty)'을(를) 일치시키는 동안
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5336): message : 컴파일되는 함수 템플릿 인스턴스화 '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=Student *,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5342): message : 컴파일되는 함수 템플릿 인스턴스화 '_InIt std::_Find_unchecked<Student*,_Ty>(const _InIt,const _InIt,const _Ty &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=Student *,
+              _Ty=int
+          ]
+D:\C++_programming\source\Dat010\ScoreManager\studentManger.cpp(153): message : 컴파일되는 함수 템플릿 인스턴스화 '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(_InIt,const _InIt,const int &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Student>>>,
+              _Ty=Student
+          ]
