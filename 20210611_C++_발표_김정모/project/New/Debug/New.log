@@ -1,0 +1,5 @@
+﻿  new.cpp
+G:\충남인력개발원\수업시간 사용\project\New\new.cpp(40,38): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+G:\충남인력개발원\수업시간 사용\project\New\new.cpp(47,25): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+G:\충남인력개발원\수업시간 사용\project\New\new.cpp(172,6): warning C4101: 'date' :참조되지 않은 지역 변수입니다.
+  New.vcxproj -> G:\충남인력개발원\수업시간 사용\project\Debug\New.exe
