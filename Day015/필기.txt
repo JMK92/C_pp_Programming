@@ -1,0 +1,15 @@
+참조계수(reference counting)
+deep copy -> shallow copy (얕은 복사)
+
+
+형변화 (type casting) 
+sum = ( kor + eng + mat ) / 3 -> python : 90.3333
+int sum = ( kor + eng + mat ) / 3 -> C++ : 90
+int sum = (double)( kor + eng + mat ) / 3 -> C++ : 90.3333
+
+static- cast<typename >(expr) => 타입이 호환되는지 -> 호환안되고 error 뜸 그래도 형변화할려면 reinterpret-cast
+reinterpret-cast<>(expr)        => static-cast에서 reinterpre-cast 강제 형변환
+
+dynamic-cast<> (expr)      ------|                         ---- 부모클래스의 포인터를 자식클래스의 포인터로 바꿀 때 
+                                         |=> 특수한 경우 사용
+const-cast<>(expr)    ------------|                        ----- 상수성을 만들거나 없앨 때 사용   
